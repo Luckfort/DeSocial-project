@@ -212,7 +212,7 @@
   <div class="hero-body">
     <div class="container is-max-desktop">
         <div align=center>
-          <h2 class="title is-3">💡Introduction</h2>
+          <h2 class="title is-3">💡DeSocial: Towards Web3 Data Mining and Recommendation</h2>
         </div>
 
         <br/><br/>
@@ -220,11 +220,11 @@
         <div class="content has-text-justified">
           <h3 class="subtitle has-text-justified">
 
-            <p>💫 We propose a novel task setting where link predictions emerge a decentralized consensus among validators rather than computed by a central model. Each validator runs their own graph learning backbone and a majority vote mechanism determines the final prediction. This formulation captures realistic constraints in blockchain environments, such as data locality, validator trust boundaries, and transparent observability. </p>
+            <p>💫 We introduce a novel task where link prediction arises from decentralized consensus among validators, each running its own graph model. This setup reflects real blockchain constraints like data locality, trust boundaries, and transparency. </p>
 
-            <p>💫 We propose DeSocial, a decentralized social network learning framework that integrates blockchain with graph learning for decentralized social network prediction. It enables personalized model selection, user-driven validator community formation, and majority-vote consensus, aligning with the logic of real-world blockchain protocols while improving social network predictions. DeSocial is deployed on an ETH local development chain environment. </p>
+            <p>💫 We propose DeSocial, a decentralized social network learning framework that combines blockchain and graph learning. It supports personalized model selection, validator communities, and majority-vote consensus, and is deployed on a local Ethereum chain. </p>
 
-            <p>💫 We conduct comprehensive experiments on four representative graph datasets spanning the domains of Web 3.0 transaction networks, email communication graphs, and interest-based social networks. Our results show that DeSocial outperforms all five classic centralized baselines in terms of link prediction accuracy by 4.53% in average, demonstrating the superiority of decentralized graph learning algorithms in the blockchain context. </p>
+            <p>💫 Experiments on four graph datasets (Web3, email, and interest-based networks) show that <span class="dnerf">DeSocial</span> outperforms five centralized baselines by 4.53% in link prediction accuracy, validating the advantage of decentralized graph learning. </p>
           </h3>
         </div>
 
@@ -233,56 +233,61 @@
 </section>
 <!-- End Introduction -->
 
-<section class="section hero is-small">
+<section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
-      <div align=center>
-        <h2 class="title is-3">DeSocial Framework</h2>
-      </div>
       <div id="results-carousel" class="carousel results-carousel">
-        <div class="item">
-          <!-- Your image here -->
-          <div class="image-body">
-            <div align=center>
-              <img src="./static/images/Framework12.png" alt="DeSocial Framework" style="width: 100%;">
-            </div>
-          </div>
-          <h3 class="subtitle has-text-centered">
-            <div align=center>
-              <p> <span class="dnerf">DeSocial</span> operation pipeline for a single prediction period. Each row represents one user's end-to-end process, from request submission to obtain decision. Different roles of the users are depicted using distinct person icons. </p>
-            </div>
-          </h3>
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/steve.mp4"
+                    type="video/mp4">
+          </video>
         </div>
-        <div class="item">
-          <!-- Your image here -->
-          <div class="image-body">
-            <div align=center>
-              <img src="./static/images/Framework1.png" alt="DeSocial Framework" style="width: 100%;">
-            </div>
-          </div>
-          <h3 class="subtitle has-text-centered">
-            <div align=center>
-              <p> <span class="dnerf">DeSocial</span> pipeline with only the personalized algorithm selection module enabled. The blockchain assigns validators to evaluate candidate algorithms, and users select the best model without executing consensus voting.</p>
-            </div>
-          </h3>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/chair-tp.mp4"
+                    type="video/mp4">
+          </video>
         </div>
-        <div class="item">
-          <!-- Your image here -->
-          <div class="image-body">
-            <div align=center>
-              <img src="./static/images/Framework2.png" alt="DeSocial Framework" style="width: 100%;">
-            </div>
-          </div>
-          <h3 class="subtitle has-text-centered">
-            <div align=center>
-              <p> <span class="dnerf">DeSocial</span> pipeline with only the decentralized consensus module enabled. Users do not select personalized algorithms, and validators independently train models and the blockchain finalizes predictions via majority voting.</p>
-            </div>
-          </h3>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/shiba.mp4"
+                    type="video/mp4">
+          </video>
         </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/fullbody.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-blueshirt">
+          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/blueshirt.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-mask">
+          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/mask.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-coffee">
+          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/coffee.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-toby">
+          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/toby2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-</div>
 </section>
 
 <section class="section">
@@ -487,8 +492,8 @@
 
 </body>
 
-<div style="position:absolute; left:-9999px;">
+<!--<div style="position:absolute; left:-9999px;">
   <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=tHmV3DBlpYlVLyqRPqHEAFT7mzwLe5bTWIB6kO33s8g'></script>
-</div>
+</div>-->
 
 </html>
