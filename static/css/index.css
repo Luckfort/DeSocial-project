@@ -115,10 +115,15 @@ body {
 }
 
 .results-carousel .item {
-  margin: 5px;
-  overflow: hidden;
-  padding: 20px;
-  font-size: 0;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  overflow: visible;
+}
+
+.image-body img {
+  margin-bottom: 1.5rem !important;
+  border: none !important;
 }
 
 .results-carousel video {
