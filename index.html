@@ -79,6 +79,16 @@
   </div>
 </nav>
 
+<section class="main image">
+  <style type="text/css">
+    body{
+      background: url("./static/images/Bg.png") no-repeat center center fixed;
+                  -webkit-background-size: cover;
+                  -o-background-size: cover;                
+                  background-size: cover;
+    }
+  </style>
+</section>
 
 <section class="hero">
   <div class="hero-body">
@@ -290,10 +300,10 @@
 </div>
 </section>
 
+<!--
 <section class="section">
   <div class="container is-max-desktop">
 
-    <!-- Paper video. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
@@ -303,9 +313,11 @@
         </div>
       </div>
     </div>
-    <!--/ Paper video. -->
+
   </div>
 </section>
+-->
+
 
 
 <section class="section">
@@ -387,28 +399,6 @@
         </div>
         <br/>
         <!--/ Interpolating. -->
-
-        <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <!--/ Re-rendering. -->
-
       </div>
     </div>
     <!--/ Animation. -->
@@ -451,15 +441,6 @@
 
 <footer class="footer">
   <div class="container">
-    <div class="content has-text-centered">
-      <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
