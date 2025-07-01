@@ -1,6 +1,6 @@
 body {
   font-family: 'Noto Sans', sans-serif;
-  color: white;
+  color: #fce45a;
 }
 
 .footer .icon-link {
@@ -160,5 +160,5 @@ body {
 }
 
 .white-text {
-  color: white !important;
+  color: #fce45a !important;
 }
