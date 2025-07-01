@@ -179,6 +179,33 @@
   </div>
 </section>
 
+<!-- Abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+
+          <p>Web 2.0 social platforms are inherently centralized, controlling the user data and algorithmic decisions. Users can only passively receive social predictions without being able to choose the underlying algorithm. Fortunately, in a blockchain environment, each user possesses its own model to perform the social prediction, capturing different perspectives on social interactions. </p>
+
+          <p>In our work, we propose <span class="dnerf">DeSocial</span>, a decentralized social network learning framework deployed on an Ethereum (ETH) local development chain that integrates distributed data storage, node-level consensus, and user-driven model selection through Ganache. </p>
+
+          <p>In the first stage, each user leverages <span class="dnerf">DeSocial</span> to evaluate multiple backbone models on their local subgraph. <span class="dnerf">DeSocial</span> coordinates the execution and returns model-wise prediction results, enabling the user to select the most suitable backbone for personalized social prediction. </p>
+
+          <p>Then, <span class="dnerf">DeSocial</span> uniformly selects several validation nodes that possess the algorithm specified by each user, and aggregates the prediction results by majority voting, to prevent errors caused by any single model's misjudgment. </p>
+          
+          <p>Extensive experiments show that <span class="dnerf">DeSocial</span> has an evident improvement compared to the five classical centralized social network learning models, promoting user empowerment in blockchain-based decentralized social networks, showing the importance of multi-node validation and personalized algorithm selection based on blockchain. Our implementation is available at:<a href="https://github.com/agiresearch/DeSocial">
+            <span>https://github.com/agiresearch/DeSocial</span>.
+          </a></p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Abstract -->
+
 <section class="section hero is-small">
   <div class="hero-body">
     <div class="container is-max-desktop">
